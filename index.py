@@ -16,5 +16,14 @@ def nombre_occurence_mot(mot,texte):
 
 #récupérer nombre de ligne
 print(nombre_occurence_mot("\n",txt))
-#nombre de caractéer
+#nombre de caractère
 print(nombre_occurence_mot("",txt))
+#nombre de passage de ligne
+print(nombre_occurence_mot("\n\n",txt))
+#nombre de Tiret
+print(nombre_occurence_mot('"',txt))
+
+
+
+
+animaux = ["renard","corbeau","loutre","lion","cheval", "poisson","mouche","abeille","chien", "chat","tortue","loup","cygogne","rat","souris","lapin","pigeon","crevette"]

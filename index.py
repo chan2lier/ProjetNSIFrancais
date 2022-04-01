@@ -15,13 +15,13 @@ def nombre_occurence_mot(mot,texte):
     return compteur
 
 #récupérer nombre de ligne
-print(nombre_occurence_mot("\n",txt))
+print("Nombre de ligne = ",nombre_occurence_mot("\n",txt))
 #nombre de caractère
-print(nombre_occurence_mot("",txt))
+print("Nombre de caractère = ",nombre_occurence_mot("",txt))
 #nombre de passage de ligne
-print(nombre_occurence_mot("\n\n",txt))
+print("Nombre de saut de ligne = ",nombre_occurence_mot("\n\n",txt))
 #nombre de Tiret
-print(nombre_occurence_mot('"',txt))
+print("Nombre de tiret = ",nombre_occurence_mot('"',txt))
 
 
 

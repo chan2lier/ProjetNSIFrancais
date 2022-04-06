@@ -22,6 +22,13 @@ print(nombre_occurence_mot("",txt))
 print(nombre_occurence_mot("\n\n",txt))
 #nombre de Tiret
 print(nombre_occurence_mot('"',txt))
+print("Nombre de ligne = ",nombre_occurence_mot("\n",txt))
+#nombre de caractère
+print("Nombre de caractère = ",nombre_occurence_mot("",txt))
+#nombre de passage de ligne
+print("Nombre de saut de ligne = ",nombre_occurence_mot("\n\n",txt))
+#nombre de Tiret
+print("Nombre de tiret = ",nombre_occurence_mot('"',txt))
 
 
 

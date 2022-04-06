@@ -14,16 +14,48 @@ def nombre_occurence_mot(mot,texte):
             compteur +=1
     return compteur
 
+def lister_tous_mots(fichier):
+    symboles_indésirables = ['""','-',';',':']
+
 #récupérer nombre de ligne
-print("Nombre de ligne = ",nombre_occurence_mot("\n",txt))
+print("Nombre de lignes = ",nombre_occurence_mot("\n",txt))
 #nombre de caractère
-print("Nombre de caractère = ",nombre_occurence_mot("",txt))
+print("Nombre de caractères = ",nombre_occurence_mot("",txt))
 #nombre de passage de ligne
-print("Nombre de saut de ligne = ",nombre_occurence_mot("\n\n",txt))
+print("Nombre de sauts de lignes = ",nombre_occurence_mot("\n\n",txt))
 #nombre de Tiret
-print("Nombre de tiret = ",nombre_occurence_mot('"',txt))
+print("Nombre de tirets = ",nombre_occurence_mot('"',txt))
+#nombre de mot
+print(len(txt.split()))
 
 
 
-
+théâtre = ["scène","acte","-","prologue","épilogue","“”"]
 animaux = ["renard","corbeau","loutre","lion","cheval", "poisson","mouche","abeille","chien", "chat","tortue","loup","cygogne","rat","souris","lapin","pigeon","crevette"]
+
+def line(fichier)->str
+    pass
+
+def liste_tous_mots(fichier)->list of str:
+    pass
+
+def liste_mots_importants(fichier,exceptions)-> list of str:
+    pass
+
+def occurences_mots(fichier,exceptions)->dico:
+    pass
+
+def nombre_lignes(texte):
+    pass
+
+def nombre_mots(texte):
+    pass
+
+def liste_mots_rangés(?):
+    pass
+
+def liste_mots_principaux(?):
+    pass
+
+def liste_noms_principaux(?):
+    pass
